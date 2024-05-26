@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff9f9;
+}
+header{
+    /* border: 1px solid red; */
+    margin: 40px 25px 0px 20px;
+    /* margin: 40px 15px; */
+}
+main section.inputs{
+    /* border: 1px solid red; */
+    margin: 30px 20px;
+    
+}
+main input.input_tex{
+    width: 60%;
+    padding: 5px;
+}
+
+main input.input_btn{
+    padding: 7px;
+    margin: 10px 8px;
+    border: 2px solid #3245e9;
+    background-color: #3245e9;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main section ul{
+    margin: 0px 15px;
+    padding: 0px;
+    list-style-type: none;
+}
+main section ul li{
+    padding: 25px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1e6e4bb;
+    margin: 10px 0px;
+    text-align: justify;
+    
+
+}
+
+main section ul li input{
+    width: 20px;
+    
+}
+main section ul span{
+    font-size: 18px;
+    width: 250px;
+}
+main section ul li button{
+    background-color: #f80c0c;
+    width: 66px;
+    height: 40px;
+    padding: 3px;
+    font-size: 14px;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    font-weight: bold;
+}
