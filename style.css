@@ -1,15 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --cor_fonte: #333333;
+}
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Mukta", sans-serif;
 }
 body{
     background-color: #fff9f9;
 }
+/* _________________ HEADER */
 header{
     /* border: 1px solid red; */
     margin: 40px 25px 0px 20px;
     /* margin: 40px 15px; */
 }
+header h1.titulo{
+    font-weight: 600;
+    color: var(--cor_fonte);
+    letter-spacing: 0.5px;
+}
+header p.header_paragrafo{
+    color: var(--cor_fonte);
+}
+
+/* _________________ MAIN */
 main section.inputs{
     /* border: 1px solid red; */
     margin: 30px 20px;
@@ -23,15 +40,17 @@ main input.input_tex{
 main input.input_btn{
     padding: 7px;
     margin: 10px 8px;
-    border: 2px solid #3245e9;
     background-color: #3245e9;
     color: #ffffff;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 14px;
 }
-
+main input.input_btn:hover{
+    background-color: #2a3591;
+}
 main section ul{
-    margin: 0px 15px;
+    margin: 0px 20px;
     padding: 0px;
     list-style-type: none;
 }
@@ -52,7 +71,7 @@ main section ul li input{
 }
 main section ul span{
     font-size: 18px;
-    width: 250px;
+    width: 60%;
 }
 main section ul li button{
     background-color: #f80c0c;
@@ -63,4 +82,26 @@ main section ul li button{
     color: #ffffff;
     border: 1px solid #ff0000;
     font-weight: bold;
+}
+
+main section ul li button:hover{
+    background-color: #be0707;
+}
+
+footer {
+    color: var(--cor_fonte);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px; /* espaço interno do footer */
+    text-align: center; /* centralizar o conteúdo do footer */
+}
+footer p a{
+    text-decoration: none;
+    color: var(--cor_fonte);
+}
+footer p a:hover{
+    color: #3245e9;
+    text-decoration: underline;
 }
