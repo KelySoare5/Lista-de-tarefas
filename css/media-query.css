@@ -1,0 +1,13 @@
+/*
+
+Tablet: < 834px - 1024px
+laptop: < 1440px 
+*/
+
+@media screen and (min-width:768px){
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
