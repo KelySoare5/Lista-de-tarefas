@@ -39,6 +39,7 @@ main input.input_tex{
 
 main input.input_btn{
     padding: 7px;
+    border: none;
     margin: 10px 8px;
     background-color: #3245e9;
     color: #ffffff;
@@ -55,23 +56,33 @@ main section ul{
     list-style-type: none;
 }
 main section ul li{
-    padding: 25px 10px;
+    width: 90%;
+    padding: 20px 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
     background-color: #f1e6e4bb;
     margin: 10px 0px;
     text-align: justify;
     
-
+    
 }
+
+
 
 main section ul li input{
     width: 20px;
     
 }
-main section ul span{
+main section ul li span{
     font-size: 18px;
+    /* border: 1px solid black; */
     width: 60%;
+    text-transform: lowercase; /* Para garantir que todo o texto, exceto a primeira letra, fique em minúsculas */
+}
+
+main section ul li span::first-letter {
+    text-transform: uppercase; /* Para garantir que apenas a primeira letra fique em maiúsculas */
 }
 main section ul li button{
     background-color: #f80c0c;
@@ -88,20 +99,3 @@ main section ul li button:hover{
     background-color: #be0707;
 }
 
-footer {
-    color: var(--cor_fonte);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px; /* espaço interno do footer */
-    text-align: center; /* centralizar o conteúdo do footer */
-}
-footer p a{
-    text-decoration: none;
-    color: var(--cor_fonte);
-}
-footer p a:hover{
-    color: #3245e9;
-    text-decoration: underline;
-}

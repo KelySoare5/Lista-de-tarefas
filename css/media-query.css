@@ -4,10 +4,23 @@ Tablet: < 834px - 1024px
 laptop: < 1440px 
 */
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 500px){
     body{
-        width: 90%;
-        margin: auto;
+        margin: 20px;
+        
     }
-    
+}
+
+@media screen and (min-width:800px) {
+    body{
+        margin: 40px;
+        
+    }
+    header p.header_paragrafo{
+        font-size: 18px;
+    }
+    main input.input_tex{
+        font-size: 16px;
+    }
+
 }
